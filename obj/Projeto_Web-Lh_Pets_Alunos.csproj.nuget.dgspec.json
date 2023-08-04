@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj": {}
+    "C:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj": {
+    "C:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj",
         "projectName": "Projeto_Web-Lh_Pets_Alunos",
-        "projectPath": "c:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj",
+        "projectPath": "C:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\Projeto_Web-Lh_Pets_Alunos.csproj",
         "packagesPath": "C:\\Users\\Gabriel Barros\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Barros\\Documents\\C#-BackEnd\\Projeto_Web-Lh_Pets_Alunos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Barros\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

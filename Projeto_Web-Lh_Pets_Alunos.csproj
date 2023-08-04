@@ -4,7 +4,11 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Projeto_Web_Lh_Pets_Alunos</RootNamespace>
+    <RootNamespace>Projeto_Web_Lh_Pets_versão_1</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
 
 </Project>
